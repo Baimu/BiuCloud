@@ -8,7 +8,7 @@ AV.Cloud.define("GetEnemy",function(request,response) {
    	 // Successfully retrieved the object.
   },
   error: function(error) {
-    errorMsg = "Error: " + error.code + " " + error.message;
+    errorMsg = "Error1: " + error.code + " " + error.message;
   }
 });
 	response.success("Hello world From ZYB!" + errorMsg);
